@@ -15,6 +15,9 @@ public class EmailRegex {
 
         String p1 = "abc@bridgelabz.co";
         System.out.println(p1 + " ==> " +IsEmailMatch(p1));
+
+	String p2 = "abc@bridgelabz";
+        System.out.println(p1 + " ==> " +IsEmailMatch(p1));
     }
 }
 
