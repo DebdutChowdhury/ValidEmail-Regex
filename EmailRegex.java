@@ -13,7 +13,7 @@ public class EmailRegex {
         System.out.println("Valid Email using regex:");
         System.out.println("---------------------------");
 
-        String p1 = "abc.xyz@bridgelabz.co.in";
+        String p1 = "abc@bridgelabz.co";
         System.out.println(p1 + " ==> " +IsEmailMatch(p1));
     }
 }
