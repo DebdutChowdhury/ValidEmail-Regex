@@ -21,6 +21,9 @@ public class EmailRegex {
 
         String p3 = "abc@bridgelabz.co";
         System.out.println(p3 + " ==> " +IsEmailMatch(p1));
+
+        String p4 = "abc.xyz@bridgelsbz.co.in";
+        System.out.println(p4 + " ==> "+IsEmailMatch(p4));
     }
 }
 
